@@ -1,0 +1,4 @@
+[submodule "protosite/ff/nltktests"]
+	path = protosite/ff/nltktests
+	url = https://github.com/zeddreactor/nltktests.git
+	branch = master
