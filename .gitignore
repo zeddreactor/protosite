@@ -4,3 +4,9 @@ env
 __pycache__
 protosite/static/admin/
 protosite/staticfiles/
+protosite/src
+protosite/
+protosite/node_modules
+protosite/node_modules/
+protosite/node_modules/*
+node_modules

@@ -1,6 +1,7 @@
 ascii_vocab = [chr(i) for i in range(128)]
 
-class caesarCypher():
+
+class CaesarCypher():
 
     def __init__(self, alphabet=ascii_vocab):
         self.alphabet = alphabet
@@ -38,7 +39,7 @@ class caesarCypher():
 
     def shift_string(self, input_string, shift_amount=0, bkwd=True):
         """Use to cypher/decypher entire string."""
-        
+
         new_string = [self.shift_char(item, shift_amount) for item in input_string]
 
         return ("".join(new_string))

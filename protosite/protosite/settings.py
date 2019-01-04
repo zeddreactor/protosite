@@ -126,4 +126,4 @@ os.path.join(BASE_DIR, 'static'),
 )
 
 # collectstatic will put static files here
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATIC_ROOT = os.path.join(BASE_DIR, "src")
